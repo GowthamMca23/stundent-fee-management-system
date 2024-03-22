@@ -1,0 +1,139 @@
+
+/*body {
+  background-color:royalblue;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color:blue;
+  background-color: #000;
+}*/
+
+/* Reset default browser styles */
+body,
+html {
+  margin: 0;
+  padding: 20;
+}
+
+/* Global styles */
+body {
+  font-family: georgia, serif;
+  background-color: lightcoral;
+  color: #333;
+  line-height: 1.0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 120px;
+  background-image: url("paper.gif");
+ background-color:yellowgreen;
+}
+
+/* Header styles */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Page content styles */
+.page-content {
+  padding: 20px 0;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Center the container */
+.container {
+  margin: 0 auto;
+}
+
+/* Add spacing between elements */
+.row {
+  margin-top: 20px;
+}
+
+/* Style for form labels */
+label {
+  font-weight: bold;
+}
+
+/* Style for form inputs */
+.form-control {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Style for buttons */
+.btn {
+  margin-right: 10px;
+}
+
+/* Style for back button */
+.back-btn {
+  width: 14%;
+  height: 5vh;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .container {
+    margin-left: 20%; /* Adjusted from inline style */
+  }
+}
+
+/* Center the jumbotron content */
+.jumbotron.centered {
+  text-align: center;
+}
+
+/* Style for the jumbotron icon */
+.jumbotron i {
+  color: #007bff; /* Blue color */
+}
+
+/* Style for the jumbotron heading */
+.jumbotron h1 {
+  margin-top: 20px;
+  font-size: 3rem;
+}
+
+/* Style for the jumbotron buttons */
+.jumbotron .btn {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 2rem;
+  }
+}
+
